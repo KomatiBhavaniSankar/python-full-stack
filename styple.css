@@ -1,0 +1,54 @@
+body{
+    
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+justify-self: center;
+
+background-color: bisque;
+
+box-sizing: border-box;
+min-height: 100vh;
+margin-top: 60px;
+
+}
+form{
+    background-color:aliceblue;
+    padding: 25px;
+    border-radius: 15px;
+cursor: pointer;
+
+}
+
+
+button{
+    background-color: rgb(9, 113, 204);
+    width: 200px;
+    height: 50px;
+   
+}
+fieldset{
+    border-radius: 20px;
+    padding: 60px;
+    margin: 100px;
+width: 250px;    
+}
+
+h1{
+    color: rgb(112, 63, 0);
+}
+
+label{
+
+    font-size: larger;
+    margin-bottom: 8px;
+    color: rgb(1, 35, 115);
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+input{
+    height: 25px;
+}
+

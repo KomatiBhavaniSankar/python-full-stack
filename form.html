@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+       <link rel="stylesheet" type="text/css" href="styple.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Personal Details Form</title>
+</head>
+<body>
+
+
+
+  <form>
+
+
+
+    <fieldset>
+      <legend><h1>User Personal Details</h1></legend>
+
+      <label for="name" id="name">Enter your name:</label>
+      <input type="text" id="name1" placeholder="Name" required>
+      <br>
+
+
+
+
+      <label for="email">Enter your email:</label>
+         <input type="email" id="email" placeholder="Email" required>
+      <br>
+
+      <label for="password">Enter your password:</label>
+      <input type="password" id="password" placeholder="Password" required>
+      <br>
+
+      <label for="confirm-password">Confirm your password:</label>
+              
+      <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+      <br>
+
+      <label for="phone">Enter your number:</label>
+
+
+                     <input type="tel" id="phone" placeholder="Phone Number" required>
+      <br>
+
+      <label for="birthday">Enter your birthday:</label>
+      <input type="date" id="birthday" name="birthday" required>
+      <br>
+
+      <div class="gender-class">
+        <h3> what is your gender?</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" id="male" required>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" id="female" required>
+
+        <label for="others">Others</label>
+        <input type="radio" name="gender" value="others" id="others" required>
+      </div>
+      <br>
+
+      <label for="country">Select your country:</label>
+      <select id="country" required>
+        <option value="" disabled selected>Select your Country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+
+        <option value="UK">UK</option>
+        <option value="Japan">Japan</option>
+      </select>
+
+
+      <br><br>
+
+      <label for="address">Enter your address:</label>
+      <input type="text" id="address" name="address" placeholder="Address" required>
+      <br><br>
+
+
+      <center><button type="submit">Submit</button></center>
+   
+    </fieldset>
+
+  </form>
+
+
+</body>
+</html>
