@@ -1,4 +1,4 @@
-document.body.style.backgroundColor = "lightblue";
+ document.body.style.backgroundColor = "lightblue";
 
 document.getElementById("header").innerHTML = "Hello world";
 
@@ -11,3 +11,6 @@ document.getElementById("para2").style.color="pink";
 document.getElementsByClassName("ds")[0].style.color="green";
 document.getElementsByClassName("ds")[1].style.color="blue";
 document.getElementsByClassName("ds")[2].style.color="red";
+
+
+
