@@ -1,9 +1,9 @@
 const form = document.getElementById("studentForm");
 
   const fields = [
-    "First Name", "Last Name", "Phone Number", "Roll Number",
-    "Photo", "Email", "Address", "Parent's Name",
-    "Parent's", "Class", "Section"
+    "First Name", "Last Name", "Phone Number", "Roll Number", "Class", "Section"
+, "Email", "Address"
+    
   ];
 
 
