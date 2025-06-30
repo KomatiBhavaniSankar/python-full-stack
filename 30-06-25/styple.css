@@ -1,8 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   padding: 10px;
-    background:black;
-
+background-image: url("wall.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 form {
