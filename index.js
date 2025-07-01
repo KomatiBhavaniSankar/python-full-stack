@@ -33,3 +33,17 @@ calculator(5,10, sum);
 calculator(5,10,(a,b)=>{
     console.log(a+b);
 });
+
+
+console.log("one");
+console.log("2");
+
+const hello = ()=> {
+    
+console.log("hello world2");
+
+}
+
+setTimeout(hello,5000)
+console.log("three");
+console.log("four");
