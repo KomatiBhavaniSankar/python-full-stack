@@ -47,3 +47,16 @@ console.log("hello world2");
 setTimeout(hello,5000)
 console.log("three");
 console.log("four");
+
+function getData(dataid){
+setTimeout(()=> {
+
+console.log("Fetch data for", dataid);
+
+}, 5000);
+
+}
+
+getData(1);
+getData(2);
+getData(3);
