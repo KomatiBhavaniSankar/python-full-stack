@@ -23,4 +23,13 @@ function sum(a,b){
 
     console.log(a+b);
 }
-sum(1,3);
+
+function calculator(a,b,ds){
+    ds(a,b);
+}
+
+calculator(5,10, sum);
+
+calculator(5,10,(a,b)=>{
+    console.log(a+b);
+});
