@@ -60,3 +60,21 @@ console.log("Fetch data for", dataid);
 getData(1);
 getData(2);
 getData(3);
+
+const getPromise = () => {
+  return new Promise((resolve, reject) => {
+    console.log("I'm IronMan");
+    resolve("reolved ")
+   // reject("something went wrong");
+  });
+};
+
+let result = getPromise();
+
+result
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error("error", error);
+  });
