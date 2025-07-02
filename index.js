@@ -60,7 +60,7 @@ console.log("Fetch data for", dataid);
 getData(1);
 getData(2);
 getData(3);
-
+/*
 const getPromise = () => {
   return new Promise((resolve, reject) => {
     console.log("I'm IronMan");
@@ -78,3 +78,28 @@ result
   .catch(error => {
     console.error("error", error);
   });
+*/
+
+
+
+//===============================================================================//
+// PROMISE CHAINING IS USED TO ENSURE  ONE TASK STARTS AFTER THR PERVIOUS COMPLETES
+
+function asyncFunc1(){
+    return new Promise((resolve, reject)=> {
+        setTimeout(()=>{
+            console.log("data2");
+            resolve("succes");
+        }, 4000)
+    });
+}
+
+function asyncFunc2(){
+    return new Promise((resolve, reject)=> {
+        setTimeout(()=>{
+            console.log("data2");
+            resolve("succes");
+        }, 4000)
+    });
+}
+
