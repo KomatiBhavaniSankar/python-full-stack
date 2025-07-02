@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checklist</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .checklist {
+      background: #922323;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .checklist h2 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .checklist-item input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    label {
+      font-size: 16px;
+    }
+
+    input[type="checkbox"]:checked + label {
+      text-decoration: line-through;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="checklist">
+    <h2> Today's Checklist</h2>
+    
+    <div class="checklist-item">
+      <input type="checkbox" id="task1">
+      <label for="task1">Finish HTML project</label>
+    </div>
+
+    <div class="checklist-item">
+      <input type="checkbox" id="task2">
+      <label for="task2">Practice CSS animations</label>
+    </div>
+
+    <div class="checklist-item">
+      <input type="checkbox" id="task3">
+      <label for="task3">Push code to GitHub</label>
+    </div>
+
+    <div class="checklist-item">
+      <input type="checkbox" id="task4">
+      <label for="task4">Join team meeting at 6 PM</label>
+    </div>
+
+  </div>
+
+</body>
+</html>
