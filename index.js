@@ -103,3 +103,16 @@ function asyncFunc2(){
     });
 }
 
+console.log("fetching data 1");
+let p1 = asyncFunc1();
+p1.then((data)=>{
+console.log("Data Fetched", data);
+console.log("fetching data 2");
+
+let p2 = asyncFunc2();
+p2.then((data)=>{
+console.log("Data fetchd", data);
+});
+
+
+})
