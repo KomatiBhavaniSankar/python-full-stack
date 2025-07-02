@@ -7,7 +7,7 @@
 
 //sayHello();
 //console.log("new");
-
+/*
 console.log("one");
 console.log("2");
 
@@ -60,7 +60,7 @@ console.log("Fetch data for", dataid);
 getData(1);
 getData(2);
 getData(3);
-/*
+
 const getPromise = () => {
   return new Promise((resolve, reject) => {
     console.log("I'm IronMan");
@@ -78,7 +78,7 @@ result
   .catch(error => {
     console.error("error", error);
   });
-*/
+
 
 
 
@@ -116,3 +116,33 @@ console.log("Data fetchd", data);
 
 
 })
+
+*/
+//Async / Await syntax
+//async/await is  a way to write asychronous code that looks synchronous , making it easier to read and amintain.
+// it is built on top of promises and allows you to write asynchronius code in a more linear fashion
+
+//example of async / await
+function getData(id){
+return new Promise((resolve, reject)=> {
+    setTimeout(()=>{
+console.log("fetching data id:", id);
+resolve(id);        
+    }, 1000);
+});
+
+}
+
+
+async function fetchData(){
+    try{
+        const data1 = await getData(101);
+        console.log("1st fetch ", data1);
+         const data2 = await getData(102);
+        console.log("2nd fetch ", data2);
+         const data3 = await getData(103);
+        console.log("3rd fetch ", data3);
+    } catch(error){
+        console.error("error occured", error);
+    }
+}
