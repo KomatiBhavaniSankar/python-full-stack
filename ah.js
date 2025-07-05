@@ -10,8 +10,8 @@ const b =20;
 
 //consr is blocked and not reassigned
 
-var c =30;
-console.log(a, b,c);
+//var c =30;
+//console.log(a, b,c);
 
 
 
