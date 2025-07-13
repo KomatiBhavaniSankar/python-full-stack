@@ -61,7 +61,7 @@ console.log("Symbol:", symbolVar);
 
 
 
-// output of non
+
   console.log("Array:", arrayVar);
 console.log("Object:", objectVar);
     console.log("Function Output:", functionVar());

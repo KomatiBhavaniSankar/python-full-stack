@@ -131,3 +131,4 @@ console.log("/n");
 let variableType = typeof a;
 console.log("typof");
 console.log(variableType);
+// the 'typeof' operator is used to determine the type of variable or value
